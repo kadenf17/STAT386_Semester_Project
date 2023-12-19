@@ -1,4 +1,4 @@
-name,price,brand,weight,bearing size,response,material,designed in,made in,machined in,released,description,diameter mm,diameter in,width mm,width in,gap width mm,gap width in,bearing type,material group
+name,price,brand,weight in grams,bearing size,response,material,designed in,made in,machined in,released,description,diameter mm,diameter in,width mm,width in,gap width mm,gap width in,bearing type,material group
 Roppo,33.0,Shuriken,65.3,Size C (.250 x .500 x .187),"""Slim Pad"" Size 19mm OD",6061 Aluminum,Hong Kong,,,2023-06-01,Stable and Powerful V-Shaped YoYo!,56.8,2.24,46.8,1.84,4.5,0.18,Size C,Aluminum
 Da Vinci,100.0,yoyofriends,62.6,Size C (.250 x .500 x .187),"""Slim Pad"" Size 19mm OD",7068 Aluminum w/ Stainless Steel Rings,China,China,,2023-06-01,Tomoki Toyama Signature YoYo!,55.89,2.2,44.64,1.76,4.5,0.18,Size C,Aluminum Bi-Metal
 Brass Exia,70.0,MK1 YoYos,66.3,Size C (.250 x .500 x .187),"""Slim Pad"" Size 19mm OD",7068 Aluminum w/ Brass Rings,USA,China,,2023-07-01,Inner Ring Bi-Metal YoYo!,55.6,2.19,47.3,1.86,4.5,0.18,Size C,Aluminum Bi-Metal
@@ -511,7 +511,7 @@ PoryCrash,69.99,C3yoyodesign,64.6,Size C (.250 x .500 x .187),19mm Slim Pad Size
 Double Or Nothing,49.99,sOMEThING,59.63,Size C (.250 x .500 x .187),19mm Slim Pad Size,6061 Aluminum,Japan,China,,2020-08-01,Slim-line unresponsive design.,,,,,,,Size C,Aluminum
 Focus Z-01,,MagicYoYo,63.68,Size C (.250 x .500 x .187),19mm Slim Pad Size,6061 Aluminum w/ Stainless Steel Rims,China,China,,2020-08-01,New bi-metal design!,,,,,,,Size C,Aluminum Bi-Metal
 Silver Bullet,364.99,Round Spinning Objects,60.5,Size C (.250 x .500 x .187),CLYW Size Pads,Titanium,Singapore,China,,2020-08-01,RSO x Tom Kuhn Collaboration!,,,,,,,Size C,Titanium
-Markmont. Classic Magnum Opus,99.99,Markmont,63.19,Size C (.250 x .500 x .187),One Drop Standard Flow Groove Pads,7075 Aluminum,USA,USA (One Drop),,2020-08-01,7075 Markmont. Classic!,,,,,,,Size C,Aluminum
+Markmont. Classic Magnum Opus,99.99,Markmont,63.19,Size C (.250 x .500 x .187),One Drop Standard Flow Groove Pads,7075 Aluminum,USA,USA,,2020-08-01,7075 Markmont. Classic!,,,,,,,Size C,Aluminum
 Mountain Man,70.99,Freshly Dirty,66.7,Size C (.250 x .500 x .187),19mm Slim Pad Size,6061 Aluminum,USA,China,,2020-08-01,The mountains are calling.,,,,,,,Size C,Aluminum
 El Presidente,119.99,Spintime,66.14,Size C (.250 x .500 x .187),19mm Slim Pad Size,7068 Aluminum w/ Stainless Steel Rims,USA,China,,2020-08-01,Brian Melford Signature YoYo.,,,,,,,Size C,Aluminum Bi-Metal
 Impulse,34.99,Top Yo,64.5,Size C (.250 x .500 x .187),19mm Slim Pad Size,6061 Aluminum,China,China,,2020-09-01,The new king of speed!,,,,,,,Size C,Aluminum

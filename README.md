@@ -1,5 +1,5 @@
 # STAT386_Semester_Project
-This is a class project wher I do data analysis of yoyos
+This is a class project where I do data analysis of yoyos
 
 Background: I am the president of the Yoyo Club at BYU. I have been yoyoing for 14 years. I have never seen a dataset about yoyos, and think this would be useful information for yoyo players.
 

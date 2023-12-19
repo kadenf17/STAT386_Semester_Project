@@ -5,6 +5,8 @@ import time
 
 
 starting_point = "https://shop.yoyoexpert.com/collections/1a-string-trick-yo-yos?view=listall"
+
+# For context, some of the other pages look like this, and use these formats:
 # https://shop.yoyoexpert.com/collections/1a-string-trick-yo-yos?view=listall&page=2
 # https://shop.yoyoexpert.com/collections/1a-string-trick-yo-yos?page=10&view=listall
 # collections/1a-string-trick-yo-yos?page=10&view=listall
@@ -13,7 +15,8 @@ starting_point = "https://shop.yoyoexpert.com/collections/1a-string-trick-yo-yos
 base_site = "https://shop.yoyoexpert.com"
 out_csv_file = "yoyo_raw_data.csv"
 in_csv_file = "visited_urls.csv"
-#n = 30 # Number of pages to scrape this run
+# Here I use an infile to keep track of visited urls, so that the same product is not scraped twice
+# n = 30 # Number of pages to scrape this run (ommitted to allow it to run until no more pages are found)
 
 products = []
 urls = [starting_point]
@@ -32,7 +35,7 @@ print("\n")
 print("Starting Crawler:")
 print("\n")
 
-#  and len(visited_urls) < n+sv_url_len
+#  and len(visited_urls) < n+sv_url_len ## Removed from line 39 so it doesn't stop after 30
 while len(urls) > 0:
     current_url = urls.pop()
     print(f"Now attempting to visit: {current_url}")
@@ -68,7 +71,7 @@ while len(urls) > 0:
         key_list = ["url", "name", "price", "brand", "diameter", "width", "gap width", "weight", "bearing size", "response", "material", "designed in", "made in", "machined in", "released"]
 
         for key in key_list:
-            product[key] = "NA"
+            product[key] = "NA" # Not all productes have all specs, so initialize them with NAs
 
         product["url"] = current_url
 
@@ -102,7 +105,7 @@ while len(urls) > 0:
                         table_data[key] = value
                     else:
                         print(f"   **Warning: {key} is not found in key list.")
-                        errors += 1
+                        errors += 1 # This error occurs if there is a new key that isn't in the key list
 
             # Add table data to product
             product.update(table_data)
@@ -112,7 +115,7 @@ while len(urls) > 0:
 
         products.append(product)
 
-        # Write to the CSV
+        # Write to the CSV (adds lines, will not replace old lines)
         with open(out_csv_file, mode='a', newline='', encoding='utf-8') as file:
             fieldnames = key_list
             writer = csv.DictWriter(file, fieldnames=fieldnames)
@@ -123,7 +126,7 @@ while len(urls) > 0:
 
     else: print("No product found on this page.")
 
-    # Save the visted urls to a csv
+    # Save the visted urls to a csv (in_csv_file)
     if "/collections/1a-string-trick-yo-yos?page=" not in current_url and current_url != starting_point:
         with open(in_csv_file, mode='a', encoding='utf-8') as txt_file:
             txt_file.write(current_url + '\n')
@@ -135,7 +138,6 @@ while len(urls) > 0:
 
     # Following their robots.txt we need to sleep 30 seconds
 
-    #if len(visited_urls) < n+sv_url_len: 
     print("Sleeping 30 sec (to comply with yoyoexpert's robots.txt)")
     time.sleep(30)
     print("\n")
