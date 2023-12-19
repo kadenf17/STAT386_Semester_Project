@@ -38,7 +38,8 @@ I ended up following the suggested I got for this section. Changing the tense to
 the flow. I also am glad that Davis pointed out my typo, because that would have been embarrassing if someone caught me
 on that. The feedback process was straightforward here, but I'm glad I asked for it because it made it better.
 
-
+First Iteration SHA:
+a60ac201db595b09c346bfdd0b702c034f6121be
 
 Part 3:
 Feedback on EDA
@@ -61,8 +62,11 @@ Molly also gave me feedback for this section. I had other feedback, but I again 
 The process of implamenting these suggestion was not so straightforward. It was difficult to figure out why my code
 wan't displaying properly. I was ready to give up after looking for a while, but when the second person give me the 
 same feedback, I realized that I really should fix it. In the end, I'm glad I followed the advice because it really
-does look much better.
+does look much better. I am also glad that I added more information about the expensive yoyos. This could give some
+people quite a scare. I never have spend over $130 on a yoyo before. (My most expensive was $130)
 
+First Iteration SHA:
+4b2d6124f839c858833b722accd069b834961e63
 
 Part 4:
 Feedback on Streamlit app
@@ -80,7 +84,14 @@ For my third piece of feedback, I also used Molly's suggestions. She suggested t
     "Enter a yoyo name:" to "Enter a yoyo from list:" because she tried a few of her yoyos and they weren't 
     found in my list. This is a great point, that only someone of her perspective would have thought about.
 
+These suggestions weren't as imparative, but I'm glad I got a perspective of someone that was in the yoyoing
+community. I want to make sure my projects and blog posts are friendly to all people, not just those that know
+technical jargon. Maybe one day someone will find my applet and it will be really cool to them.
 
+First Iteration SHA:
+9646aacae1f4a0ca47c912d301327e1e36a2cf2a
+
+The feedback part was really useful, thanks for having be a part of this project!
 
 
 
