@@ -1,0 +1,88 @@
+Part 1:
+Feedback on my Topic
+
+I asked classmates about my topic and recieved this feedback:
+
+I asked Davis Dowdle if he thought a dataset about yoyos, about cars, or about engagement rings would be better.
+    He told me that he liked the yoyo dataset idea because it was unique and interesting. He had never head of that before.
+
+Byron and I shared our project ideas during class one day, and he told me that he liked my yoyo idea. His only concern was
+    I needed to have enough information and enough yoyos to go off of.
+
+I didn't get another classmate for the third piece of feedback, but I did ask a grad student, Thomas Whitney. He is a fan
+    of yoyoing like me, and also doing the integraded masters program. He loved the idea because there wasn't a public dataset
+    available with the information I was seeking.
+
+
+This feedback helped me to decide to change my project from car listings on ksl, to a dataset about yoyos, something I'm more
+    passionate about. I also liked Byrons suggestions, and I made sure there was enough data to collect before I started coding.
+    I also liked the reassurance from Thomas that this was a good idea. Their help gave me a good start to the project.
+
+Part 2:
+Feedback on Blog Post 1
+
+The first piece of feedback for my blog post was from Isaac Aguilar on discord. He mentioned that he liked my ethical
+    concerns for my data scraping. He didn't have many suggestions for what I should change, but he mentioned that he
+    thought it looks great.
+
+My next piece of feedback come again from my good friend Davis. He mentioned that I used Jupiter instead of Jupyter.
+    He also suggested that I use a table format for showing my final data set. However, I tried to do this, but the
+    format of the blog post wasn't working with me. The theme I used was really confusing for adding tables.
+
+My third review comes from a non-classmate. Her name is Molly, and she also is a yoyo fan. I decided to use her feedback
+    because I think this topic is a little niche and it would be useful to get an insider's feedback. She also doesn't 
+    have a project of her own to do so she isn't trying to rush the feedback. For this post she told me I should try to
+    keep the tense the same. I swap from past tense to future tense and it is confusing.
+
+I ended up following the suggested I got for this section. Changing the tense to match the other paragraphs really helped
+the flow. I also am glad that Davis pointed out my typo, because that would have been embarrassing if someone caught me
+on that. The feedback process was straightforward here, but I'm glad I asked for it because it made it better.
+
+
+
+Part 3:
+Feedback on EDA
+
+Isaac also gave me feedback for my EDA blog post. After appreciating my Q&A section, he mentioned that he was confused
+    about my scatter matrix. The labels were only showing on the first row of values. I actually messed with this for 
+    a decent amount of time trying to fix it. I eventually figured it out, and fixed it in my blog post.
+
+Davi's advice here was also to add captions to the heatmap. I didn't realize that it stood out so much. Like I mentioned
+    above, I spend a long time trying to figure out why it wasn't displaying properly. I think it had to do with the
+    aspect ratio. I'm glad I finally fixed it.
+
+
+Molly also gave me feedback for this section. I had other feedback, but I again liked her feedback because of the unique
+    perspective. For this part, she recommended that I adjusted one of my questions. The answer to the question about
+    material impacting price seemed funny compared to the answer. She also suggested that I mention why normal people
+    don't need an expensive, titanium yoyo. This is great advice because most people would wonder why they were so
+    expensive.
+
+The process of implamenting these suggestion was not so straightforward. It was difficult to figure out why my code
+wan't displaying properly. I was ready to give up after looking for a while, but when the second person give me the 
+same feedback, I realized that I really should fix it. In the end, I'm glad I followed the advice because it really
+does look much better.
+
+
+Part 4:
+Feedback on Streamlit app
+
+Isaac again gave me feedback on my streamlit app. He suggested that I add a link to my GitHub repository. I had
+    mentioned that you could find the link through the streamlit app, but that might not work for all platforms.
+    I decided to go ahead and add it to the botttom.
+
+Davis gave me feedback about my app. He said he really liked it and that the interactive graphs were a nice touch.
+    His comment on discord didn't give me much to improve on, but early in class when I was developing it he told
+    me that I should make sure to explain the graphs. Before, I had kind of thrown them in and not explained them
+    very well.
+
+For my third piece of feedback, I also used Molly's suggestions. She suggested that I change the wording of 
+    "Enter a yoyo name:" to "Enter a yoyo from list:" because she tried a few of her yoyos and they weren't 
+    found in my list. This is a great point, that only someone of her perspective would have thought about.
+
+
+
+
+
+
+

@@ -180,7 +180,7 @@ st.write("It looks like gap width (mm) might have the biggest correlation with p
 # Individaul Yoyos
 st.header("Compare a Yoyo:")
 st.write("This tool lets us look at individual yoyos and compare them against others made from the same company. My personal favorite yoyo is the Pragma. It is one of YoyoFactory's more expensive yoyos, but it is a smooth and incredibly fun yoyo.")
-selected_name = st.text_input('Enter a yoyo name', 'Pragma') # Default is Pragma
+selected_name = st.text_input('Enter a yoyo name from my list:', 'Pragma') # Default is Pragma
 name_df = df[df['name'] == selected_name]
 if name_df.empty:
     st.write('Name not found')
@@ -217,7 +217,7 @@ st.write('''
             Q: What are the most expensive yoyos? (what about by brand?)
                 A: Titanium and Magnesium yoyos, regardless of brand.
         
-            Q: What effect does the material have on yoyo price?
+            Q: Does the material have a big effect on yoyo price?
                 A: Material is a big factor in determining yoyo price
          
             Q: Do certain manufacturers use better materials in their yoyos?
@@ -231,4 +231,5 @@ st.write('''
          
          ''')
 st.write("Thanks for coming on this yoyo analysis journey with me!")
-st.write("If you would like to look through my code, check out my GitHub repository. (Link above in top right)")
+st.write("If you would like to look through my code, check out my GitHub repository.")
+st.write("https://github.com/kadenf17/STAT386_Semester_Project")
